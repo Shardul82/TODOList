@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="splash_style">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">#40b7ad</item>
+        <item name="fontFamily">sans-serif</item>
+    </style>
+
+    <style name="heading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/**************************************************************
+    *                                                             *
+    * CSCI 522      Assignment 8                      Fall 2020   *
+    *                                                             *
+    * XML Name:  item_list_view_checkbox                          *
+    *                                                             *
+    * Programmer: Shardul Deepak Arjunwadkar	Z1888485          *
+    *                                                             *
+    * Due Date:   12/04/2020 11:59PM                              *
+    *                                                             *
+    * Purpose: This xml file contains the layout of the checkbox  *
+    *           activity. It has checkbox and textView.           *
+    *                                                             *
+    ***************************************************************/-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_weight="1"
+        android:height="20sp"
+        android:gravity="left"
+        android:text="description"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toEndOf="@+id/checkbox"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

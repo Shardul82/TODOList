@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/**************************************************************
+    *                                                             *
+    * CSCI 522      Assignment 8                      Fall 2020   *
+    *                                                             *
+    * XML Name:  splash_screen                                    *
+    *                                                             *
+    * Programmer: Shardul Deepak Arjunwadkar	Z1888485          *
+    *                                                             *
+    * Due Date:   12/04/2020 11:59PM                              *
+    *                                                             *
+    * Purpose: This xml file contains the layout of the first     *
+    *          screen and main activity. It has ImageView and     *
+    *          TextView.                                          *
+    *                                                             *
+    ***************************************************************/-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.SplashScreen">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/splash_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Do do List App"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/splash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
